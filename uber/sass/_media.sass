@@ -1,0 +1,256 @@
+@media (max-width:1200px)
+    .menu
+        &_item:not(:last-child)
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .reasons
+        .row
+            .row
+                align-items: flex-start
+    .mobile
+        &_item
+            max-width: 300px
+            &_subtitle
+                font-size: 22px
+    .footer
+        &_wrapper
+            flex-direction: column
+            align-items: center
+        &_iconsgroup
+            justify-content: center
+            margin-right: 0
+            order:2
+            margin-top: 25px
+        &_socials
+            order: 3
+            margin-top: 25px
+@media (max-width:991px)
+    .menu
+        &_item:not(:last-child)
+            padding-right: 9px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            width: 100%
+            height: 40px
+            margin-top: 21px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .reasons
+        &_advantage
+            margin-top: 10px
+        &_smalltitle
+            text-align: center
+    .mobile
+        &_item
+            width: 100%
+            &_subtitle
+                font-size: 18px
+    .choice
+        min-height: 790px
+        padding-bottom: 60px
+        &_img
+            img
+                width: 100%
+@media (max-width:767px)
+    .menu
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        background-color: rgba(0,0,0,0.8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none!important
+            margin-top: 10px
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: white
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            margin-top: 10px
+            font-size: 16px
+            font-weight: normal
+            text-align: center
+            color: #fff
+        &_btn
+            width: 200px
+            height: 40px
+            display: block
+            margin: 0 auto
+            margin-top: 10px
+    .promo
+        &_header
+            line-height: 45px
+    .reasons
+        &_icon
+            margin-right: 0
+        &_smalltitle, &_text
+            max-width: 100%
+        &_text
+            margin-top: 10px
+    .world
+        &_link
+            margin-top: 260px
+
+@media (max-width:575px)
+    header
+        height: 30px
+    nav
+        height: 30px
+    .menu
+        &_active
+            width: 85%
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+        &_link
+            display: block
+    .subheader
+        height: 60px
+        top: 30px
+        &_official
+            display: none
+        &_logo
+            margin-top: 18px
+        &_phone
+            font-size: 12px
+            margin-top: 11px
+        &_btn
+            width: 110px
+            height: 20px
+            font-size: 10px
+            margin-top: 6px
+    .promo
+        min-height: 400px
+        padding: 90px 0 35px 0
+        margin-top: -50px
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 30px
+        &_btn
+            width: 210px
+            height: 50px
+            margin-top: 72px
+    .reasons
+        padding: 70px 0 36px 0
+        &_icon
+            width: 100px
+            height: 100px
+    .mobile
+        padding: 22px 0 0 0
+        &_item
+            margin-bottom: 30px
+    .choice
+        min-height: 390px
+        padding-bottom: 0
+        .label 
+            margin-top: 25px
+        .title, .subtitle
+            display: none
+        &_line
+            height: 390px
+        &_text
+            color: white
+            position: relative
+            z-index: 2
+
+    .require
+        padding: 20px 0
+        &_block
+            margin: 10px 0
+        &_title
+            font-size: 16px
+        &_descr
+            font-size: 14px
+        &_list
+            li
+                font-size: 14px
+    .title
+        font-size: 16px
+        margin-top: 15px
+        margin-bottom: 0
+    .subtitle
+        margin-top: 5px
+    .world
+        padding: 25px 0 30px 0
+        &_link
+            margin-top: 210px
+    .footer
+        padding-left: 0
+        padding-right: 0
+        &_line
+            width: 253px
+        &_linkstop
+            width: 100%
+            margin-top: 20px
+        &_linktop
+            font-size: 14px
+        &_linksbottom
+            flex-wrap: wrap
+            width: 100%
+            padding: 0 25px
+        &_linkbottom
+            font-size: 11px
+        &_iconsgroup,&_socials
+            margin-top: 20px
